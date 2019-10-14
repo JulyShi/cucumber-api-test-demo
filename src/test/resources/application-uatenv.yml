@@ -1,0 +1,20 @@
+db:
+  serviceA:
+    url: jdbc:mysql://nkgtsv622ctx:8701/serviceA?allowMultiQueries=true&useSSL=false
+    user: july
+    password: julypassword
+
+  serviceB:
+    url: jdbc:mysql://nkgtsv623ctx:8701/serviceB?allowMultiQueries=true&useSSL=false
+    user: july
+    password: julypassword
+
+ login.url: http://test.tw.com/login/loghin.do
+
+serviceA:
+  service:
+    host: hostA-uat
+
+serviceB:
+  service:
+    host: hostB-uat

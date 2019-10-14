@@ -1,4 +1,4 @@
-.idea
-*/target/*
-cucmber-api-test-demo.iml
+/.idea
+/target
+/*.iml
 

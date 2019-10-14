@@ -17,7 +17,7 @@ import org.springframework.context.annotation.Configuration;
                 "html:target/cucumber-reports"
         },
 
-        tags = "not @ignore",
+        tags = "@test and not @ignore",
 
         features = "classpath:features/")
 public class RunCucumberTest {
