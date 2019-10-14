@@ -5,5 +5,5 @@ import org.springframework.test.context.ContextConfiguration;
 
 @SpringBootTest
 @ContextConfiguration(classes = Application.class)
-public class Steps {
+public abstract class Step {
 }
